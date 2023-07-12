@@ -9,7 +9,7 @@ Each subdirectory is a stand-alone project using the preferred tools for
 that language, you can find more detailed information in `<language>/CONTRIBUTING.md`.
 
 Each gherkin implementation depends on two common files.
- * `gherkin-langauges.json` containing translations of the Gherkin Keywords
+ * `gherkin-languages.json` containing translations of the Gherkin Keywords
  * `gherkin.berp` from which a parser is generated.
 
 To reduce the complexity of common tasks: copying and/or generating
@@ -48,7 +48,7 @@ Prerequisites:
 * `jq` (>= 1.4 for `--sort-keys` option)
 * `git`
 
-1) Edit `gherkin-langauges.json`.
+1) Edit `gherkin-languages.json`.
 
 2) Distribute the changes to the different parser implementations, this requires `make`, `jq`, `diff`, but no compiler/interpreters:
 
